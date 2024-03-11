@@ -7,6 +7,7 @@ fi
 
 EDITOR="nvim"
 
+alias ut="cd ~/Documents/utfpr/"
 alias vim=$EDITOR
 alias v="$EDITOR"
 alias ls="eza -a"
@@ -14,7 +15,9 @@ alias gs="git status"
 alias rss="newsboat"
 alias mail="neomutt"
 alias monitoron="xrandr --output HDMI-1 --mode 1920x1080 --rate 120 --right-of eDP-1"
+alias mouse="xinput --set-prop 'pointer:''Logitech G403 HERO Gaming Mouse' 'libinput Accel Speed' 0 && xinput --set-prop 'pointer:''Logitech G403 HERO Gaming Mouse' 'libinput Accel Profile Enabled' 0, 1"
 alias zathura="devour zathura"
+alias riscv="devour java -jar ~/Documents/utfpr/arqcomp/rars1_6.jar"
 
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias dfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
