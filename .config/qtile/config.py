@@ -131,8 +131,8 @@ for i in groups:
 
 layouts = [
     layout.MonadTall(
-        border_focus=["#61afef00"],
-        border_normal=["#282c3400"],
+        border_focus=["#61afef"],
+        border_normal=["#282c34"],
         border_width=2,
         margin=11,
         new_client_position="bottom"
@@ -326,25 +326,6 @@ def init_widgets_list():
                     filled=True,
                 ),
             ],
-        ),
-        widget.Sep(
-            linewidth=1,
-            padding=15,
-            foreground=colors[0],
-            background=colors[0]
-        ),
-        widget.BatteryIcon(
-            theme_path='~/.config/qtile/assets/battery/',
-            background=colors[0],
-            scale=1,
-        ),
-        widget.Battery(
-            font=myFont,
-            fontsize=13,
-            background=colors[0],
-            foreground=colors[1],
-            format="{percent:2.0%}",
-            update_interval=10,
         ),
         widget.Sep(
             linewidth=1,
